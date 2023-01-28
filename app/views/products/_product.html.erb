@@ -1,0 +1,18 @@
+<div id="<%= dom_id product %>" class="card" style="width: 18rem; align-items:center;">
+  <image src='<%= url_for(product.image)%>' style="width: 100px;"><br>
+  <div class="card-body">
+    <h5 class="card-title"><%= product.title %></h5>
+    <p class="card-text"><%= product.description %></p>
+  </div>
+  <div class='row'>
+    <div class='col-sm-4'>
+      <%= link_to "Edit product", edit_product_path(product), :class => 'btn btn-primary btn-sm'  %>
+    </div>
+    <div class='col-sm-4'>
+      <%= link_to "Destroy product", product, method: :delete, :class => 'btn btn-danger btn-sm'  %>
+    </div>
+    <div class='col-sm-4'>
+      <%= link_to "Show product", product, :class => 'btn btn-primary btn-sm' %>
+    </div>
+  </div>
+</div>
