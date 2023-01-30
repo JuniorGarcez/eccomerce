@@ -16,3 +16,38 @@
     margin: 5px;
     padding: 5px;
 }
+.footer{
+    background-color:rgb(192, 192, 192);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.head, nav{
+    background-color:red;
+    text-decoration: none;
+    color: #ffff;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.ico{
+    height: 50px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.new_product{
+    margin: 15px;
+}

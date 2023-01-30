@@ -48,7 +48,8 @@ class ProductsController < ApplicationController
   end
 
   # DELETE /products/1 or /products/1.json
-  def destroy
+  def delete
+    binding.pry
     @product.destroy
 
     respond_to do |format|
