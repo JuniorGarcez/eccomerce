@@ -16,6 +16,10 @@ gem 'pry'
 gem 'pry-nav'
 gem 'pry-doc'
 
+gem 'devise'
+
+gem 'simple_form'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
